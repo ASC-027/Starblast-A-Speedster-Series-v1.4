@@ -301,14 +301,6 @@ var aspeedsterv2 = {
   transparent: false
 };
 
-game.setObject({
-  id: "aspeedsterv2",
-  type: aspeedsterv2,
-  position: {x:20,y:0,z:0},
-  rotation: {x:20,y:0,z:0},
-  scale: {x:1,y:1,z:1}
-});
-
 var contrabandspeedster = {
   id: "contrabandspeedster",
   obj: "https://raw.githubusercontent.com/ASC-027/Starblast-A-Speedster-Series-v1.4/main/obj%20exports/contrabandspeedster.obj",
@@ -317,6 +309,14 @@ var contrabandspeedster = {
   diffuseColor: 0x00FFFF,
   transparent: false
 };
+
+game.setObject({
+  id: "aspeedsterv2",
+  type: aspeedsterv2,
+  position: {x:20,y:0,z:0},
+  rotation: {x:20,y:0,z:0},
+  scale: {x:1,y:1,z:1}
+});
 
 game.setObject({
   id: "contrabandspeedster",
