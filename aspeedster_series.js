@@ -212,7 +212,7 @@ this.options = {
  ships: ships,
  reset_tree: true,
  vocabulary: vocabulary,
- soundtrack: "procedurality.mp3",
+ soundtrack: "argon.mp3",
  release_crystal: true,
  weapon_drop: 8,
  weapons_store: true,
