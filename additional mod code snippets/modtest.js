@@ -292,36 +292,62 @@ this.event = function(event, game) {
   }
 };
 
-var aspeedsterv2 = {
-  id: "aspeedsterv2",
-  obj: "https://raw.githubusercontent.com/ASC-027/Starblast-A-Speedster-Series-v1.4/main/obj%20exports/aspeedsterv2.obj",
+var aspeedsterobj = {
+  id: "aspeedsterobj",
+  obj: "https://raw.githubusercontent.com/ASC-027/Starblast-A-Speedster-Series-v1.4/main/obj%20exports/aspeedster.obj",
   diffuse: "https://raw.githubusercontent.com/ASC-027/Starblast-A-Speedster-Series-v1.4/main/obj%20exports/ship_lambert_texture.png",
   emissive: "https://raw.githubusercontent.com/ASC-027/Starblast-A-Speedster-Series-v1.4/main/obj%20exports/ship_emissive_texture.png",
+  shininess: 0,
   diffuseColor: 0xFF0000,
-  transparent: false
+  specularColor: 0x4080FF,
+  transparent: false,
+  bump: "https://raw.githubusercontent.com/ASC-027/Starblast-A-Speedster-Series-v1.4/main/obj%20exports/ship_lambert_texture.png"
 };
 
 var contrabandspeedster = {
   id: "contrabandspeedster",
   obj: "https://raw.githubusercontent.com/ASC-027/Starblast-A-Speedster-Series-v1.4/main/obj%20exports/contrabandspeedster.obj",
-  diffuse: "https://raw.githubusercontent.com/ASC-027/Starblast-A-Speedster-Series-v1.4/main/obj%20exports/ship_lambert_texture.png",
+  diffuse: "https://raw.githubusercontent.com/ASC-027/Starblast-A-Speedster-Series-v1.4/main/obj%20exports/ship_lambert_texture_blue2.png",
   emissive: "https://raw.githubusercontent.com/ASC-027/Starblast-A-Speedster-Series-v1.4/main/obj%20exports/ship_emissive_texture.png",
-  diffuseColor: 0x00FFFF,
-  transparent: false
+  shininess: 0,
+  emissiveColor: 0x00CCFF,
+  specularColor: 0x4080FF,
+  transparent: false,
+  bump: "https://raw.githubusercontent.com/ASC-027/Starblast-A-Speedster-Series-v1.4/main/obj%20exports/ship_lambert_texture_blue.png"
 };
 
-game.setObject({
-  id: "aspeedsterv2",
-  type: aspeedsterv2,
-  position: {x:20,y:0,z:0},
-  rotation: {x:20,y:0,z:0},
-  scale: {x:1,y:1,z:1}
-});
+var starspeedster = {
+  id: "starspeedster",
+  obj: "https://raw.githubusercontent.com/ASC-027/Starblast-A-Speedster-Series-v1.4/main/obj%20exports/starspeedster.obj",
+  diffuse: "https://github.com/ASC-027/Starblast-A-Speedster-Series-v1.4/blob/main/obj%20exports/ship_lambert_texture_green.png",
+  emissive: "https://raw.githubusercontent.com/ASC-027/Starblast-A-Speedster-Series-v1.4/main/obj%20exports/ship_emissive_texture.png",
+  shininess: 0,
+  emissiveColor: 0x33CC33,
+  specularColor: 0x4080FF,
+  transparent: false,
+  bump: "https://github.com/ASC-027/Starblast-A-Speedster-Series-v1.4/blob/main/obj%20exports/ship_lambert_texture_green.png"
+};
 
-game.setObject({
-  id: "contrabandspeedster",
-  type: contrabandspeedster,
-  position: {x:20,y:15,z:0},
-  rotation: {x:20,y:0,z:0},
-  scale: {x:1,y:1,z:1}
-});
+  game.setObject({
+    id: "contrabandspeedster", 
+    type: contrabandspeedster,
+    position:{x:14, y:-17,z:-25}, 
+    scale:{x:9,y:9,z:9}, 
+    rotation: {x:-0.5,y:0,z:2.15}
+  });
+  
+  game.setObject({
+    id: "aspeedsterobj", 
+    type: aspeedsterobj,
+    position:{x:44, y:7,z:-35}, 
+    scale:{x:9,y:9,z:9}, 
+    rotation: {x:-0.51,y:0,z:2.2}
+  });
+  
+  game.setObject({
+    id: "starspeedster", 
+    type: starspeedster,
+    position:{x:-20, y:-30,z:-25}, 
+    scale:{x:9,y:9,z:9}, 
+    rotation: {x:-0.45,y:0,z:1.9}
+  });
