@@ -258,6 +258,7 @@ var aspeedsterobj = {
   obj: "https://raw.githubusercontent.com/ASC-027/Starblast-A-Speedster-Series-v1.4/main/obj%20exports/aspeedster.obj",
   diffuse: "https://raw.githubusercontent.com/ASC-027/Starblast-A-Speedster-Series-v1.4/main/obj%20exports/ship_lambert_texture.png",
   emissive: "https://raw.githubusercontent.com/ASC-027/Starblast-A-Speedster-Series-v1.4/main/obj%20exports/ship_emissive_texture.png",
+  shininess: 0,
   diffuseColor: 0xFF0000,
   specularColor: 0x4080FF,
   transparent: false,
