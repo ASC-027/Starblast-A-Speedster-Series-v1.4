@@ -354,7 +354,7 @@ if (odysseyspawnchance < 0.30){
 var scorpionspeedsterspawnchance = Math.random();
 if (scorpionspeedsterspawnchance < 0.10){
   game.setObject({
-    id:"scorpionspeedster", 
+    id: "scorpionspeedster", 
     type: scorpionspeedster,
     position:{x:-30, y:45,z:-40}, 
     scale:{x:7,y:7,z:7}, 
