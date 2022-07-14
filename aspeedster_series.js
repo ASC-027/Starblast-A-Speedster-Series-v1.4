@@ -328,10 +328,10 @@ var odysseyobj = {
 var odysseyspawnchance = Math.random();
 if (odysseyspawnchance < 0.30){
   game.setObject({
-  id: "odysseyobj", 
-  type: odysseyobj,
-  position:{x:95, y:55,z:-50}, 
-  scale:{x:5,y:5,z:5}, 
-  rotation: {x:-0.5,y:0.2,z:-0.6}
- });
-}
+   id: "odysseyobj", 
+   type: odysseyobj,
+   position:{x:95, y:55,z:-50}, 
+   scale:{x:5,y:5,z:5}, 
+   rotation: {x:-0.5,y:0.2,z:-0.6}
+  });
+ }
