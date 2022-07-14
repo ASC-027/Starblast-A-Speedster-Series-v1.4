@@ -290,16 +290,16 @@ var starspeedster = {
 };
 
   game.setObject({
-    id: "contrabandspeedster", 
-    type: contrabandspeedster,
+    id: "aspeedsterobj", 
+    type: aspeedsterobj,
     position:{x:14, y:-17,z:-25}, 
     scale:{x:9,y:9,z:9}, 
     rotation: {x:-0.5,y:0,z:2.15}
   });
   
   game.setObject({
-    id: "aspeedsterobj", 
-    type: aspeedsterobj,
+    id: "contrabandspeedster", 
+    type: contrabandspeedster,
     position:{x:44, y:7,z:-35}, 
     scale:{x:9,y:9,z:9}, 
     rotation: {x:-0.51,y:0,z:2.2}
