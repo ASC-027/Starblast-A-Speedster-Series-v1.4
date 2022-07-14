@@ -301,6 +301,20 @@ var odysseyobj = {
   bump: "https://github.com/ASC-027/Starblast-A-Speedster-Series-v1.4/blob/main/obj%20exports/ship_lambert_texture_green.png"
 };
 
+var scorpionspeedster = {
+  id: "scorpionspeedster",
+  obj: "https://raw.githubusercontent.com/ASC-027/Starblast-A-Speedster-Series-v1.4/main/obj%20exports/scorpionspeedster.obj",
+  diffuse: "https://raw.githubusercontent.com/ASC-027/Starblast-A-Speedster-Series-v1.4/main/obj%20exports/ship_lambert_texture_blue2.png",
+  emissive: "https://raw.githubusercontent.com/ASC-027/Starblast-A-Speedster-Series-v1.4/main/obj%20exports/ship_emissive_texture.png",
+  shininess: 0,
+  emissiveColor: 0x00CCFF,
+  specularColor: 0x4080FF,
+  transparent: false,
+  bump: "https://raw.githubusercontent.com/ASC-027/Starblast-A-Speedster-Series-v1.4/main/obj%20exports/ship_lambert_texture_blue.png"
+};
+
+var triospeedsterspawnchance = Math.random();
+if (triospeedsterspawnchance < 0.90){
   game.setObject({
     id: "aspeedsterobj", 
     type: aspeedsterobj,
@@ -324,7 +338,8 @@ var odysseyobj = {
     scale:{x:9,y:9,z:9}, 
     rotation: {x:-0.45,y:0,z:1.9}
   });
-  
+}
+
 var odysseyspawnchance = Math.random();
 if (odysseyspawnchance < 0.30){
   game.setObject({
@@ -334,4 +349,15 @@ if (odysseyspawnchance < 0.30){
    scale:{x:5,y:5,z:5}, 
    rotation: {x:-0.5,y:0.2,z:-0.6}
   });
+ }
+ 
+var scorpionspeedsterspawnchance = Math.random();
+if (scorpionspeedsterspawnchance < 0.10){
+    game.setObject({
+     id:"scorpionspeedster", 
+     type: scorpionspeedster,
+     position:{x:-30, y:45,z:-40}, 
+     scale:{x:7,y:7,z:7}, 
+     rotation: {x:-0.4,y:0,z:0.8}
+   });
  }
