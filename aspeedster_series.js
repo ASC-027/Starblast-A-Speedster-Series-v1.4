@@ -214,7 +214,7 @@ this.options = {
  vocabulary: vocabulary,
  soundtrack: "argon.mp3",
  release_crystal: true,
- weapon_drop: 8,
+ weapon_drop: 0,
  weapons_store: true,
  projectile_speed: 1,
  healing_enabled: true,
