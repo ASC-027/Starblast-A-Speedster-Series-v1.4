@@ -202,7 +202,7 @@ this.options = {
   
 //Game Settings :
  
- map_name: "A-Speedster Series v1.4"
+ map_name: "A-Speedster Series v1.4",
  root_mode: "survival",
  starting_ship: 101,
  starting_ship_maxed: false,
