@@ -202,6 +202,7 @@ this.options = {
   
 //Game Settings :
  
+ map_name: "A-Speedster Series v1.4"
  root_mode: "survival",
  starting_ship: 101,
  starting_ship_maxed: false,
@@ -214,7 +215,7 @@ this.options = {
  vocabulary: vocabulary,
  soundtrack: "argon.mp3",
  release_crystal: true,
- weapon_drop: 8,
+ weapon_drop: 0,
  weapons_store: true,
  projectile_speed: 1,
  healing_enabled: true,
@@ -286,11 +287,12 @@ this.event = function(event, game) {
       var ship = event.ship;
       var component = event.id;
       if (component == "resetShip") {
-        resetShip_button_click(ship);
+        resetShip_button(ship);
       }
       break;
   }
 };
+
 
 var aspeedsterobj = {
   id: "aspeedsterobj",
