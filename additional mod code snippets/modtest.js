@@ -293,7 +293,6 @@ this.event = function(event, game) {
   }
 };
 
-
 var aspeedsterobj = {
   id: "aspeedsterobj",
   obj: "https://raw.githubusercontent.com/ASC-027/Starblast-A-Speedster-Series-v1.4/main/obj%20exports/aspeedster.obj",
