@@ -35,7 +35,7 @@ this.event = function(event, game) {
       var ship = event.ship;
       var component = event.id;
       if (component == "resetShip") {
-        resetShip_button_click(ship);
+        resetShip_button(ship);
       }
       break;
   }
