@@ -1,12 +1,11 @@
-//*
+/*
+Starblast: A-Speedster Series v1.4 - Champions arrise
  
-//Starblast: A-Speedster Series v1.4 - Champions arrise
- 
-//Credits:
-// - Mod Code: ASC-027
-// - Ships: Neuronality, Finalizer, SChickenMan, 45rfew, Bhpsngum, Aerial 0770, Torque, ASC-095
-// - Beta Testers: Aerial 0770, Torque, ASC-095, ASC-051
- 
+Credits:
+- Mod Code: ASC-027
+- Ships: Neuronality, Finalizer, SChickenMan, 45rfew, Bhpsngum, Aerial 0770, Torque, ASC-095
+- Beta Testers: Aerial 0770, Torque, ASC-095, ASC-051
+*/
 var ships = [];
  
 //Tier 1
