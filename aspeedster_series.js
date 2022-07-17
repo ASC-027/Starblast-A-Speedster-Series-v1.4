@@ -262,7 +262,10 @@ var aspeedsterobj = {
   diffuseColor: 0xFF0000,
   specularColor: 0x4080FF,
   transparent: false,
-  bump: "https://raw.githubusercontent.com/ASC-027/Starblast-A-Speedster-Series-v1.4/main/obj%20exports/ship_lambert_texture.png"
+  bump: "https://raw.githubusercontent.com/ASC-027/Starblast-A-Speedster-Series-v1.4/main/obj%20exports/ship_lambert_texture.png",
+  physics: {
+    mass: 175,
+  }
 };
 
 var contrabandspeedster = {
@@ -274,7 +277,10 @@ var contrabandspeedster = {
   emissiveColor: 0x00CCFF,
   specularColor: 0x4080FF,
   transparent: false,
-  bump: "https://raw.githubusercontent.com/ASC-027/Starblast-A-Speedster-Series-v1.4/main/obj%20exports/ship_lambert_texture_blue.png"
+  bump: "https://raw.githubusercontent.com/ASC-027/Starblast-A-Speedster-Series-v1.4/main/obj%20exports/ship_lambert_texture_blue.png",
+  physics: {
+    mass: 200,
+  }
 };
 
 var starspeedster = {
@@ -286,7 +292,10 @@ var starspeedster = {
   emissiveColor: 0x33CC33,
   specularColor: 0x4080FF,
   transparent: false,
-  bump: "https://github.com/ASC-027/Starblast-A-Speedster-Series-v1.4/blob/main/obj%20exports/ship_lambert_texture_green.png"
+  bump: "https://github.com/ASC-027/Starblast-A-Speedster-Series-v1.4/blob/main/obj%20exports/ship_lambert_texture_green.png",
+  physics: {
+    mass: 200,
+  }
 };
 
 var odysseyobj = {
@@ -298,7 +307,10 @@ var odysseyobj = {
   emissiveColor: 0x33CC33,
   specularColor: 0x4080FF,
   transparent: false,
-  bump: "https://github.com/ASC-027/Starblast-A-Speedster-Series-v1.4/blob/main/obj%20exports/ship_lambert_texture_green.png"
+  bump: "https://github.com/ASC-027/Starblast-A-Speedster-Series-v1.4/blob/main/obj%20exports/ship_lambert_texture_green.png",
+  physics: {
+    mass: 700,
+  }
 };
 
 var scorpionspeedster = {
@@ -310,7 +322,10 @@ var scorpionspeedster = {
   emissiveColor: 0x00CCFF,
   specularColor: 0x4080FF,
   transparent: false,
-  bump: "https://raw.githubusercontent.com/ASC-027/Starblast-A-Speedster-Series-v1.4/main/obj%20exports/ship_lambert_texture_blue.png"
+  bump: "https://raw.githubusercontent.com/ASC-027/Starblast-A-Speedster-Series-v1.4/main/obj%20exports/ship_lambert_texture_blue.png",
+  physics: {
+    mass: 450,
+  }
 };
 
 var triospeedsterspawnchance = Math.random();
