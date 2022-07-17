@@ -6,6 +6,7 @@ Credits:
 - Ships: Neuronality, Finalizer, SChickenMan, 45rfew, Bhpsngum, Aerial 0770, Torque, ASC-095
 - Beta Testers: Aerial 0770, Torque, ASC-095, ASC-051
 */
+
 var ships = [];
  
 //Tier 1
