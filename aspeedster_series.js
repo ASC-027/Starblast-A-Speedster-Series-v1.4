@@ -154,7 +154,7 @@ this.options = {
  
  //Map Settings :
  
- map_size: 80,
+ map_size: 100,
  crystal_value: 3,
  asteroids_strength: 1,
  
