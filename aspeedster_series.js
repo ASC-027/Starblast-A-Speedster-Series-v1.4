@@ -162,8 +162,7 @@ this.options = {
  
  lives: 3,
  maxtierlives: 0,
- rcs_toggle: true,
-  
+ rcs_toggle: true, 
 };
  
 this.tick = function(game) {
