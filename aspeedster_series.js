@@ -161,7 +161,7 @@ this.options = {
  //Ship Settings :
  
  lives: 3,
- maxtierlives: 0,
+ max_tier_lives: 0,
  rcs_toggle: true, 
 };
  
